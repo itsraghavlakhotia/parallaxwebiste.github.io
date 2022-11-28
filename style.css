@@ -1,0 +1,53 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	font-family: "Lato",sans-serif;
+	font-size: 16px;
+/*	color: #ccc;*/
+}
+.image_1{
+	background-image: url(nature_image1.jpg);
+	min-height: 100%;
+}
+.image_2{
+	background-image: url(nature_image2.jpg);
+	min-height: 400px;
+}
+.image_3{
+	background-image: url(nature_image3.jpg);
+	min-height: 400px;
+}
+.image_1,.image_2,.image_3{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.text1{
+	position: absolute;
+	text-align: center;
+	top:50%;
+	width: 100%;
+	color: black;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.textbg{
+	background: #313534;
+	color: whitesmoke;
+	padding:20px;
+}
+.section{
+	padding: 50px 80px;
+	text-align: center;
+}
+.section_light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+.section_dark{
+	background-color: #282e34;
+	color: #ddd;
+}
